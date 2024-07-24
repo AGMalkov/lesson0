@@ -19,7 +19,8 @@ class House:
         return self.numFloors
 
     def __eq__(self, other):
-        return self.numFloors == other.numFloors
+        if isinstance(other.numFloors, int):
+            return self.numFloors == other.numFloors
 
     def __add__(self, value):
         self.numFloors += value
