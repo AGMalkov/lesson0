@@ -8,7 +8,7 @@ from crud_functions import initiate_db, get_all_products
 
 initiate_db()
 
-api = '7796297757:AAGu2Uh6THkb3UctSKWjYsuN0g5cJMbniiE'
+api = ''
 
 class UserState(StatesGroup):
     age = State()
